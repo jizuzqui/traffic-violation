@@ -151,6 +151,13 @@
       </dmn:contextEntry>
     </dmn:context>
   </dmn:decision>
+  <dmn:textAnnotation id="_489DDBB3-BF8E-489D-8AC8-596A900D5F74">
+    <dmn:text>New text annotation</dmn:text>
+  </dmn:textAnnotation>
+  <dmn:association id="_D7703621-EA6F-443D-A085-E70ED4F81E46" associationDirection="Both">
+    <dmn:sourceRef href="#_489DDBB3-BF8E-489D-8AC8-596A900D5F74" />
+    <dmn:targetRef href="#_8A408366-D8E9-4626-ABF3-5F69AA01F880" />
+  </dmn:association>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_921B4850-619C-478A-A53B-30959C362665" name="DRG" useAlternativeInputDataShape="false">
       <di:extension>
@@ -223,6 +230,13 @@
       <dmndi:DMNEdge id="_B11104F9-6DDF-4B23-88F3-63820204FD5F" dmnElementRef="_6B012A30-ECD5-49B9-8908-798016B6E0C1" sourceElement="dmnshape-drg-_1929CBD5-40E0-442D-B909-49CEDE0101DC" targetElement="dmnshape-drg-_4055D956-1C47-479C-B3F4-BAEB61F1C929">
         <di:waypoint x="750" y="385" />
         <di:waypoint x="759" y="235" />
+      </dmndi:DMNEdge>
+      <dmndi:DMNShape id="_E633E886-A2D5-4BE5-BB42-31122676F8CD" dmnElementRef="_489DDBB3-BF8E-489D-8AC8-596A900D5F74" isCollapsed="false" isListedInputData="false">
+        <dc:Bounds x="260" y="-40" width="200" height="200" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="_B9F54B8A-7B3B-4A27-BAEE-51901D957802" dmnElementRef="_D7703621-EA6F-443D-A085-E70ED4F81E46" sourceElement="_E633E886-A2D5-4BE5-BB42-31122676F8CD" targetElement="dmnshape-drg-_8A408366-D8E9-4626-ABF3-5F69AA01F880">
+        <di:waypoint x="360" y="60" />
+        <di:waypoint x="534" y="114.5" />
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
